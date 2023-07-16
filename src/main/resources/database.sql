@@ -1,0 +1,1 @@
+create table student(id int primary key auto_increment, name VARCHAR(32),city VARCHAR(20),email varchar(250),level int);

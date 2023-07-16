@@ -7,6 +7,7 @@ import java.io.Serializable;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Student implements Serializable {
+    int id;
     private String name;
     private String city;
     private String email;
